@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@deepgram/sdk": "^3.13.0",
+    "@google/generative-ai": "^0.5.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "groq-sdk": "^0.37.0",
+    "nodemon": "^3.1.11",
+    "ollama": "^0.6.3",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1"
+  }
+}

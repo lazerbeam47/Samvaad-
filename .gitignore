@@ -1,0 +1,52 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+.vite/
+coverage/
+.cache/
+uploads/
+backend/uploads/
+public/uploads/
+
+# Keys
+*.pem
+*.key
+
+# Temporary
+tmp/
+*.tmp
+
+# Lockfiles - keep at your discretion
+# package-lock.json
+# yarn.lock
